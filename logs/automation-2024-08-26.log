@@ -1,0 +1,58 @@
+21:37:642 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\grid-docker.xml
+
+21:38:263 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\grid-docker.xml
+
+21:57:361 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:57:878 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:00:164 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:00:169 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:03:806 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:03:984 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:10:957 [main] INFO  testCases.TC002_LoginTest - ******* Starting tc_002_LoginTest *********
+21:13:459 [main] INFO  testCases.TC002_LoginTest - ******* Finished tc_002_LoginTest *********
+21:24:785 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\grid-docker.xml
+
+21:17:315 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:18:688 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:22:673 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:22:678 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:24:487 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:25:492 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:09:112 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\grid-docker.xml
+
+21:47:019 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:47:501 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:49:736 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:49:744 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:52:274 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:52:456 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:34:233 [main] INFO  testCases.TC002_LoginTest - ******* Starting tc_002_LoginTest *********
+21:43:816 [main] INFO  testCases.TC002_LoginTest - ******* Finished tc_002_LoginTest *********
+21:10:780 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\grid-docker.xml
+
+21:29:269 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:29:601 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:31:674 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:31:678 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:33:933 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:34:085 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:39:068 [main] INFO  testCases.TC002_LoginTest - ******* Starting tc_002_LoginTest *********
+21:42:505 [main] INFO  testCases.TC002_LoginTest - ******* Finished tc_002_LoginTest *********
+21:33:865 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\grid-docker.xml
+
+21:49:539 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:49:830 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:51:079 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:51:083 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:53:978 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:54:077 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:35:556 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:36:199 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:37:627 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:37:646 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******

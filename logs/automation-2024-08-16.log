@@ -1,0 +1,47 @@
+21:40:293 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:41:038 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:41:039 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:41:607 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:42:415 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:35:722 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+21:36:134 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.119 (resolved driver for Chrome 127)
+21:36:243 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe
+21:43:530 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:43:758 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:45:782 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:45:804 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:45:825 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:47:410 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:48:674 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:48:676 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:49:814 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:49:862 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:50:947 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:50:982 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:57:038 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:57:327 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:58:543 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:58:543 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:59:120 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:00:069 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:08:241 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\master.xml
+
+21:08:570 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.119 (resolved driver for Chrome 127)
+21:08:692 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe
+21:14:128 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:14:228 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:15:023 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+21:15:025 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+21:16:877 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+21:16:949 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+21:37:400 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+21:37:799 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.119 (resolved driver for Chrome 127)
+21:37:883 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe
+21:40:825 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+21:42:882 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+21:43:640 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
