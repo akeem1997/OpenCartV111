@@ -68,11 +68,7 @@
     <scope>test</scope>
 </dependency>
 
-    <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>LATEST_VERSION</version> <!-- Replace with the latest version -->
-</dependency>
+   
 <dependency>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-plugin-api</artifactId>
