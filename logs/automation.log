@@ -1,7 +1,1 @@
-20:35:302 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
-20:35:480 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
-20:36:867 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
-20:36:869 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
-20:39:707 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
-20:40:582 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
-20:42:203 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+11:35:302 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe

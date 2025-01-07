@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-04T20:02:08 CDT" name="Suite" finished-at="2024-09-04T20:02:44 CDT" duration-ms="36079">
+  <suite started-at="2025-01-07T11:25:37 CST" name="Master Suite" finished-at="2025-01-07T11:31:20 CST" duration-ms="343132">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4e70a728]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5644dc81]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4351c8c3]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" name="verify_Login" class="testCases.TC002_LoginTest"/>
       </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" name="verify_Login" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4e70a728]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5644dc81]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4351c8c3]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-09-04T20:02:08 CDT" name="chromeTest" finished-at="2024-09-04T20:02:21 CDT" duration-ms="13785">
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@4e70a728]" started-at="2024-09-04T20:02:08 CDT" name="setup" finished-at="2024-09-04T20:02:16 CDT" duration-ms="8543" status="PASS">
+    <test started-at="2025-01-07T11:25:37 CST" name="Test" finished-at="2025-01-07T11:31:20 CST" duration-ms="343132">
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" started-at="2025-01-07T11:26:11 CST" name="setup" finished-at="2025-01-07T11:26:16 CST" duration-ms="5122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,19 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4e70a728]" started-at="2024-09-04T20:02:16 CDT" name="verify_account_registration" finished-at="2024-09-04T20:02:21 CDT" duration-ms="4445" status="PASS">
+        <test-method signature="verify_Login()[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" started-at="2025-01-07T11:26:16 CST" name="verify_Login" finished-at="2025-01-07T11:26:19 CST" duration-ms="3221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4e70a728]" started-at="2024-09-04T20:02:21 CDT" name="tearDown" finished-at="2024-09-04T20:02:21 CDT" duration-ms="523" status="PASS">
+        </test-method> <!-- verify_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" started-at="2025-01-07T11:26:19 CST" name="tearDown" finished-at="2025-01-07T11:26:19 CST" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- chromeTest -->
-    <test started-at="2024-09-04T20:02:08 CDT" name="edgeTest" finished-at="2024-09-04T20:02:44 CDT" duration-ms="36079">
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@5644dc81]" started-at="2024-09-04T20:02:08 CDT" name="setup" finished-at="2024-09-04T20:02:35 CDT" duration-ms="26805" status="PASS">
+      </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:19 CST" name="setup" finished-at="2025-01-07T11:26:24 CST" duration-ms="5034" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,22 +52,633 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5644dc81]" started-at="2024-09-04T20:02:35 CDT" name="verify_account_registration" finished-at="2024-09-04T20:02:40 CDT" duration-ms="5283" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:25 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:26:29 CST" duration-ms="3679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wisdomolalere@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wisdom123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:29 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:26:41 CST" duration-ms="11779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshimi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:41 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:26:53 CST" duration-ms="12361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshimi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:53 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:27:05 CST" duration-ms="12369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyzz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:27:05 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:27:09 CST" duration-ms="3487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:27:09 CST" name="tearDown" finished-at="2025-01-07T11:27:09 CST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_LoginDDT -->
+      <class name="testCases.TC004_SearchProducts">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:09 CST" name="setup" finished-at="2025-01-07T11:27:14 CST" duration-ms="5056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:15 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:27:26 CST" duration-ms="11254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:26 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:27:37 CST" duration-ms="11517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Towel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:37 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:27:49 CST" duration-ms="11771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:49 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:01 CST" duration-ms="11318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cream]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:01 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:12 CST" duration-ms="11734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple Cinema 30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:12 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:24 CST" duration-ms="11444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cake]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:24 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:36 CST" duration-ms="11903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canon EOS 5D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:36 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:47 CST" duration-ms="11359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:47 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:58 CST" duration-ms="10841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sport Car]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_searchProducts -->
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:58 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:06 CST" duration-ms="7553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_adding_multiple_items_to_cart -->
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:06 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:13 CST" duration-ms="7153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_adding_multiple_items_to_cart -->
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:13 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:20 CST" duration-ms="6922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_adding_multiple_items_to_cart -->
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:20 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:27 CST" duration-ms="6945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IPhone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_adding_multiple_items_to_cart -->
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:27 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:34 CST" duration-ms="7332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_adding_multiple_items_to_cart -->
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:34 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:41 CST" duration-ms="7220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_adding_multiple_items_to_cart -->
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:41 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:48 CST" duration-ms="7241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HTC Touch HD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HTC Touch HD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_adding_multiple_items_to_cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:48 CST" name="tearDown" finished-at="2025-01-07T11:29:49 CST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_SearchProducts -->
+      <class name="testCases.TC005_Checkout">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:29:49 CST" name="setup" finished-at="2025-01-07T11:29:54 CST" duration-ms="4869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Add_to_cart()[pri:1, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:29:54 CST" name="verify_Add_to_cart" finished-at="2025-01-07T11:29:55 CST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Add_to_cart -->
+        <test-method signature="verify_successfully_checkedout()[pri:2, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:29:55 CST" name="verify_successfully_checkedout" finished-at="2025-01-07T11:30:04 CST" duration-ms="8354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_successfully_checkedout -->
+        <test-method signature="verify_products_successfully_deleted()[pri:3, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:04 CST" name="verify_products_successfully_deleted" finished-at="2025-01-07T11:30:10 CST" duration-ms="6721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_products_successfully_deleted -->
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:11 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:14 CST" duration-ms="3888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$123.20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:14 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:18 CST" duration-ms="3895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$246.40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:18 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:22 CST" duration-ms="3980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$369.60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:22 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:26 CST" duration-ms="3989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$492.80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:26 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:30 CST" duration-ms="3935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$616.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:30 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:34 CST" duration-ms="4014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$739.20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:34 CST" name="tearDown" finished-at="2025-01-07T11:30:35 CST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_Checkout -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" started-at="2025-01-07T11:25:37 CST" name="setup" finished-at="2025-01-07T11:26:07 CST" duration-ms="29379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" started-at="2025-01-07T11:26:07 CST" name="verify_account_registration" finished-at="2025-01-07T11:26:10 CST" duration-ms="3542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5644dc81]" started-at="2024-09-04T20:02:40 CDT" name="tearDown" finished-at="2024-09-04T20:02:44 CDT" duration-ms="3628" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" started-at="2025-01-07T11:26:10 CST" name="tearDown" finished-at="2025-01-07T11:26:11 CST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- edgeTest -->
-  </suite> <!-- Suite -->
+      <class name="testCases.TC006_WishList">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:35 CST" name="setup" finished-at="2025-01-07T11:30:39 CST" duration-ms="4772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="writeReview()[pri:1, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:39 CST" name="writeReview" finished-at="2025-01-07T11:30:47 CST" duration-ms="8029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReview -->
+        <test-method signature="addToWishList()[pri:2, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:47 CST" name="addToWishList" finished-at="2025-01-07T11:30:53 CST" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishList -->
+        <test-method signature="testSubmitReviewWithoutText()[pri:3, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:53 CST" name="testSubmitReviewWithoutText" finished-at="2025-01-07T11:30:59 CST" duration-ms="6054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitReviewWithoutText -->
+        <test-method signature="testSubmitReviewWithoutRating()[pri:4, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:59 CST" name="testSubmitReviewWithoutRating" finished-at="2025-01-07T11:31:06 CST" duration-ms="7079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitReviewWithoutRating -->
+        <test-method signature="testSubmitReviewWithoutChararcters()[pri:5, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:31:06 CST" name="testSubmitReviewWithoutChararcters" finished-at="2025-01-07T11:31:13 CST" duration-ms="6595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitReviewWithoutChararcters -->
+        <test-method signature="testReviewCharacterLimit()[pri:6, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:31:13 CST" name="testReviewCharacterLimit" finished-at="2025-01-07T11:31:20 CST" duration-ms="6878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReviewCharacterLimit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:31:20 CST" name="tearDown" finished-at="2025-01-07T11:31:20 CST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC006_WishList -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
 </testng-results>

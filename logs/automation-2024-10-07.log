@@ -1,0 +1,54 @@
+19:27:174 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+19:35:424 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+19:35:724 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+19:35:769 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+19:22:243 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+19:23:711 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+19:24:622 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+21:33:596 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+21:34:907 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+21:35:059 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+09:58:048 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+09:02:073 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+09:02:417 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+11:51:042 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+11:53:784 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.70 (resolved driver for Chrome 129)
+11:54:049 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.70/win64/chromedriver-win64.zip
+11:58:141 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+11:58:647 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\129.0.6668.70\chromedriver.exe
+19:19:501 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+19:22:138 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+19:22:379 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.89/win64/chromedriver-win64.zip
+19:26:312 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+19:26:639 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+22:51:933 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+22:35:827 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+22:37:922 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+22:38:155 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+23:56:502 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+23:57:322 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+23:57:452 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+23:35:218 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+23:36:071 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+23:36:178 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+23:58:026 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+

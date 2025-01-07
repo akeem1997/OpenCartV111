@@ -15,6 +15,8 @@ public class Homepage extends BasePage {
 	@FindBy(xpath = "//span[normalize-space()='My Account']") WebElement lnkMyaccount;
 	@FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']") WebElement lnkRegister;
 	@FindBy(xpath = "//a[normalize-space()='Login']") WebElement linkLogin;
+	@FindBy(xpath = "//span[normalize-space()='Wish List (0)']") WebElement WishList;
+	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']") WebElement WishListDisplayed;
 	
 	
 	public void clickMyAccount() {
@@ -27,6 +29,17 @@ public class Homepage extends BasePage {
 	
 	public void clickLogin() {
 		linkLogin.click();
+	}
+	
+	public void clickWishlist() {
+		WishList.click();
+	}
+	public boolean wishListIsDisplayed() {
+		try {
+			return(WishListDisplayed.isDisplayed());
+		} catch (Exception e) {
+			return false;
+		}
 	}
 	
 	

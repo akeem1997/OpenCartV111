@@ -21,6 +21,57 @@ public class dataProviders {
 		
 	}
 	
+	@DataProvider(name="searchData")
+	public String [][] getAllSearchData() throws Exception {
+		String path = ".\\testData\\Opencart_SearchData.xlsx";
+		ExcelUtils xl = new ExcelUtils(path);
+		int totalrows= xl.getRowCount("Sheet1");
+		int totalcols = xl.getCellCount("Sheet1",1);
+		
+		String logindata[][] = new String [totalrows][totalcols];
+		for(int i=1;i<=totalrows;i++) {
+			for(int j=0; j<totalcols; j++) {
+				logindata[i-1][j] = xl.getCellData("Sheet1", i, j);
+			}
+		}
+		return logindata;
+		
+	}
+	
+	@DataProvider(name="CheckOutData")
+	public String [][] getCheckOutData() throws Exception {
+		String path = ".\\testData\\CheckedOutData.xlsx";
+		ExcelUtils xl = new ExcelUtils(path);
+		int totalrows= xl.getRowCount("Sheet1");
+		int totalcols = xl.getCellCount("Sheet1",1);
+		
+		String CheckOutData[][] = new String [totalrows][totalcols];
+		for(int i=1;i<=totalrows;i++) {
+			for(int j=0; j<totalcols; j++) {
+				CheckOutData[i-1][j] = xl.getCellData("Sheet1", i, j);
+			}
+		}
+		return CheckOutData;
+		
+	}
+	
+	@DataProvider(name="AddItems")
+	public String [][] AddItemsToCart() throws Exception {
+		String path = ".\\testData\\AddItemsToCart.xlsx";
+		ExcelUtils xl = new ExcelUtils(path);
+		int totalrows= xl.getRowCount("Sheet1");
+		int totalcols = xl.getCellCount("Sheet1",1);
+		
+		String AddItemsToCart[][] = new String [totalrows][totalcols];
+		for(int i=1;i<=totalrows;i++) {
+			for(int j=0; j<totalcols; j++) {
+				AddItemsToCart[i-1][j] = xl.getCellData("Sheet1", i, j);
+			}
+		}
+		return AddItemsToCart;
+		
+	}
+	
 	/*@DataProvider(name="id")
 	public String [] getUserNames() throws Exception {
 		String path = System.getProperty("user.dir")+"//testPersonalData//personalSetOfDatas.xlsx";

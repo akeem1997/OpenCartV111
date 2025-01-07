@@ -1,0 +1,47 @@
+22:52:575 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+22:52:910 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+22:53:859 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+22:53:859 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+22:54:750 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+22:55:832 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+22:49:349 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+22:50:190 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+22:50:282 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+22:56:372 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+22:56:593 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+22:58:625 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+22:58:628 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+22:01:368 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+22:01:437 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+22:13:180 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+22:13:266 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+22:14:195 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+22:14:197 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+22:16:210 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+22:16:262 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+22:27:791 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+22:28:073 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+22:31:595 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+22:31:596 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+22:32:302 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+22:33:207 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+11:30:605 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\crossbrowsertesting.xml
+
+11:31:991 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+11:32:154 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+11:37:243 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+11:37:338 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+11:38:199 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+11:38:201 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+11:39:928 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+11:39:989 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+11:50:047 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+11:50:104 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+11:50:910 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+11:50:911 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+11:53:356 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+11:53:403 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+12:11:614 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
