@@ -13,7 +13,7 @@
           <include name="tearDown"/>
           <include name="testSubmitReviewWithoutChararcters"/>
           <include name="testSubmitReviewWithoutRating"/>
-          <include name="testSubmitReviewWithoutText"/>
+          <include name="testReviewCharacterLimit"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC006_WishList -->

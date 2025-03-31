@@ -18,6 +18,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -85,10 +86,20 @@ public Properties p;
 		}
 		
 		if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
+			boolean isHeadless = true;
 			
 			if(br.equalsIgnoreCase("Chrome")) {
+				//WebDriverManager.chromedriver().setup();
+				ChromeOptions options = new ChromeOptions();
+				
+				//driver = new ChromeDriver();
+				if(isHeadless) {
+					options.addArguments("--headless");
+					
+				}
 				WebDriverManager.chromedriver().setup();
-				driver = new ChromeDriver();
+				driver = new ChromeDriver(options);
+				
 				}
 				else if(br.equalsIgnoreCase("Edge")) {
 					driver = new EdgeDriver();
@@ -96,6 +107,9 @@ public Properties p;
 				else if(br.equalsIgnoreCase("Firefox")) {
 					driver = new FirefoxDriver();
 				}
+				
+			
+			
 				else {
 					System.out.println("Invalid Browser Name");
 				}

@@ -10,7 +10,7 @@
 </listeners>
   <test thread-count="5" name="Test">
   <parameter name="os" value="Windows"/>
-  <parameter name="browser" value="Edge"/>
+  <parameter name="browser" value="chrome"/>
   
     <classes>
 
@@ -20,8 +20,7 @@
        <class name="testCases.TC004_SearchProducts"/> 
        <class name="testCases.TC005_Checkout"/> 
        <class name="testCases.TC006_WishList"/>
-        <class name="testCases.TC001_AccountRegistrationTest"/> 
-      <class name="testCases.TC002_LoginTest"/> 
+       
       
 
     </classes>

@@ -3,6 +3,7 @@ package testCases;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -32,6 +33,7 @@ public class TC006_WishList extends BaseClass {
 		SearchProductsPage sp = new SearchProductsPage(driver);
 		sp.enterSearchText("macbook");
 		sp.SearchClick();
+		
 		driver.findElement(By.xpath("//a[normalize-space()='MacBook']")).click();
 		
 		wishListPage wp = new wishListPage(driver);
@@ -66,6 +68,7 @@ public class TC006_WishList extends BaseClass {
 		SearchProductsPage sp = new SearchProductsPage(driver);
 		sp.enterSearchText("macbook");
 		sp.SearchClick();
+		
 		driver.findElement(By.xpath("//a[normalize-space()='MacBook']")).click();
 		wishListPage wp = new wishListPage(driver);
 		wp.clickWishList();
@@ -74,7 +77,7 @@ public class TC006_WishList extends BaseClass {
 		hp.clickMyAccount();
 		lp.clickLogOut();
 		
-	}
+	} 
 	
 	@Test(priority = 3)
 	public void testSubmitReviewWithoutText() {
@@ -92,11 +95,15 @@ public class TC006_WishList extends BaseClass {
 		SearchProductsPage sp = new SearchProductsPage(driver);
 		sp.enterSearchText("macbook");
 		sp.SearchClick();
+		
 		driver.findElement(By.xpath("//a[normalize-space()='MacBook']")).click();
+		
 		
 		wishListPage wp = new wishListPage(driver);
 		wp.clearQuant();
 		wp.EnterQuant("2");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000);");
 		wp.clickWriteAReview();
 		wp.clearName();
 		wp.clickContinue();
@@ -121,11 +128,15 @@ public class TC006_WishList extends BaseClass {
 		SearchProductsPage sp = new SearchProductsPage(driver);
 		sp.enterSearchText("macbook");
 		sp.SearchClick();
+		
 		driver.findElement(By.xpath("//a[normalize-space()='MacBook']")).click();
+		
 		
 		wishListPage wp = new wishListPage(driver);
 		wp.clearQuant();
 		wp.EnterQuant("2");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000);");
 		wp.clickWriteAReview();
 		wp.clearName();
 		wp.EnterName("angel micheal");
@@ -135,10 +146,10 @@ public class TC006_WishList extends BaseClass {
 		Assert.assertEquals(error, true);
 		hp.clickMyAccount();
 		lp.clickLogOut();
-	}
+	} 
 	
 	@Test(priority = 5)
-	public void testSubmitReviewWithoutChararcters() {
+	public void testSubmitReviewWithoutChararcters() throws Exception  {
 		Homepage hp = new Homepage(driver);
 		hp.clickMyAccount();
 		hp.clickLogin();
@@ -152,11 +163,16 @@ public class TC006_WishList extends BaseClass {
 		SearchProductsPage sp = new SearchProductsPage(driver);
 		sp.enterSearchText("macbook");
 		sp.SearchClick();
+		
 		driver.findElement(By.xpath("//a[normalize-space()='MacBook']")).click();
+		
 		
 		wishListPage wp = new wishListPage(driver);
 		wp.clearQuant();
 		wp.EnterQuant("2");
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000);");
 		wp.clickWriteAReview();
 		wp.clearName();
 		wp.EnterName("angel micheal");
@@ -164,13 +180,17 @@ public class TC006_WishList extends BaseClass {
 		wp.clickBestRate();
 		wp.clickContinue();
 		
+		
+		
 		boolean error = wp.SelectReviewRatingIsDisplayed();
 		Assert.assertEquals(error, true);
+		
 		
 		hp.clickMyAccount();
 		lp.clickLogOut();
 		
-	}
+		
+	} 
 	@Test(priority = 6)
 	public void  testReviewCharacterLimit() {
 		Homepage hp = new Homepage(driver);
@@ -186,7 +206,10 @@ public class TC006_WishList extends BaseClass {
 		SearchProductsPage sp = new SearchProductsPage(driver);
 		sp.enterSearchText("macbook");
 		sp.SearchClick();
+		
 		driver.findElement(By.xpath("//a[normalize-space()='MacBook']")).click();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000);");
 		
 		wishListPage wp = new wishListPage(driver);
 		wp.clearQuant();

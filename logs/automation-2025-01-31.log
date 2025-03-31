@@ -1,0 +1,43 @@
+12:49:317 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+12:51:720 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+12:51:763 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+12:52:030 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+12:52:118 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+12:08:304 [main] INFO  testCases.TC002_LoginTest - ******* Starting tc_002_LoginTest *********
+12:11:744 [main] INFO  testCases.TC002_LoginTest - ******* Finished tc_002_LoginTest *********
+12:12:205 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+12:12:321 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+12:21:759 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+12:26:165 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+12:26:166 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+12:38:647 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+12:38:648 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+12:52:208 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+12:52:210 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+12:05:402 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+12:05:403 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+12:10:345 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+12:11:549 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+12:11:750 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+12:14:558 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+12:14:626 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+12:07:716 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+12:07:785 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+06:06:975 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+06:06:985 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+06:06:987 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:06:987 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:06:988 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:06:989 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:06:992 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:06:993 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+06:07:002 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+06:07:014 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+06:07:016 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:07:017 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+06:07:017 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:07:017 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:07:018 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:07:018 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:07:020 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:07:020 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.

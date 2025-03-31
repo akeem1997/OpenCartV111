@@ -1,0 +1,41 @@
+05:37:541 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+05:17:739 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+05:17:846 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+09:27:746 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akeem\eclipse-workspace\OpenCartV111\master.xml
+
+09:34:113 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+09:34:347 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+09:44:866 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+09:45:023 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+09:45:916 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******
+09:45:921 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Providing Customer Details ******
+09:47:952 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Validating expected message ******
+09:48:004 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished testing **********
+09:48:367 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+09:48:476 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+09:54:619 [main] INFO  testCases.TC002_LoginTest - ******* Starting tc_002_LoginTest *********
+09:57:196 [main] INFO  testCases.TC002_LoginTest - ******* Finished tc_002_LoginTest *********
+09:57:469 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+09:57:561 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+09:05:740 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+09:08:726 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+09:08:732 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+09:20:654 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+09:20:658 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+09:33:007 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+09:33:013 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+09:45:016 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+09:45:021 [main] INFO  testCases.TC003_LoginDDT - ******** Starting tc003_LoginDDT **********
+09:49:261 [main] INFO  testCases.TC003_LoginDDT - ******** Finished tc003_LoginDDT **********
+09:49:638 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+09:49:737 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+09:34:723 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+09:34:842 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+09:19:102 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+09:19:215 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+12:35:164 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+12:35:488 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akeem\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+12:46:983 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest ******
+12:47:381 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on My Account link ******
+12:49:314 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Clicked on Register Link ******

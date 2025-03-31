@@ -1,0 +1,13 @@
+https://481665114355.signin.aws.amazon.com/console
+
+awsdevops
+
+keemy_001
+
+
+https://481665114355.signin.aws.amazon.com/console
+
+
+myfirst-webapp-s3-bucket
+
+first-webapp-dir1

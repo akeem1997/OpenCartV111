@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
+<testng-results ignored="0" total="38" passed="35" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-07T11:25:37 CST" name="Master Suite" finished-at="2025-01-07T11:31:20 CST" duration-ms="343132">
+  <suite started-at="2025-03-24T09:34:16 CDT" name="Master Suite" finished-at="2025-03-24T09:39:28 CDT" duration-ms="312357">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" name="verify_Login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5c8504fd]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@3e14c16d]" name="verify_Login" class="testCases.TC002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" name="verify_Login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@3e14c16d]" name="verify_Login" class="testCases.TC002_LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5c8504fd]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-01-07T11:25:37 CST" name="Test" finished-at="2025-01-07T11:31:20 CST" duration-ms="343132">
+    <test started-at="2025-03-24T09:34:16 CDT" name="Test" finished-at="2025-03-24T09:39:28 CDT" duration-ms="312357">
       <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" started-at="2025-01-07T11:26:11 CST" name="setup" finished-at="2025-01-07T11:26:16 CST" duration-ms="5122" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@3e14c16d]" started-at="2025-03-24T09:34:25 CDT" name="setup" finished-at="2025-03-24T09:34:30 CDT" duration-ms="4567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,17 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Login()[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" started-at="2025-01-07T11:26:16 CST" name="verify_Login" finished-at="2025-01-07T11:26:19 CST" duration-ms="3221" status="PASS">
+        <test-method signature="verify_Login()[pri:0, instance:testCases.TC002_LoginTest@3e14c16d]" started-at="2025-03-24T09:34:30 CDT" name="verify_Login" finished-at="2025-03-24T09:34:32 CDT" duration-ms="2119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@4bd1f8dd]" started-at="2025-01-07T11:26:19 CST" name="tearDown" finished-at="2025-01-07T11:26:19 CST" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@3e14c16d]" started-at="2025-03-24T09:34:32 CDT" name="tearDown" finished-at="2025-03-24T09:34:32 CDT" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC003_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:19 CST" name="setup" finished-at="2025-01-07T11:26:24 CST" duration-ms="5034" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@3c989952]" started-at="2025-03-24T09:34:32 CDT" name="setup" finished-at="2025-03-24T09:34:36 CDT" duration-ms="4382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:25 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:26:29 CST" duration-ms="3679" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@3c989952]" started-at="2025-03-24T09:34:38 CDT" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-03-24T09:34:42 CDT" duration-ms="3635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:29 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:26:41 CST" duration-ms="11779" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@3c989952]" started-at="2025-03-24T09:34:42 CDT" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-03-24T09:34:53 CDT" duration-ms="11445" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:41 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:26:53 CST" duration-ms="12361" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@3c989952]" started-at="2025-03-24T09:34:53 CDT" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-03-24T09:35:05 CDT" duration-ms="11476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,7 +122,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:26:53 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:27:05 CST" duration-ms="12369" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@3c989952]" started-at="2025-03-24T09:35:05 CDT" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-03-24T09:35:16 CDT" duration-ms="11273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:27:05 CST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-07T11:27:09 CST" duration-ms="3487" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@3c989952]" started-at="2025-03-24T09:35:16 CDT" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-03-24T09:35:19 CDT" duration-ms="3253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -164,13 +164,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginDDT@7096b474]" started-at="2025-01-07T11:27:09 CST" name="tearDown" finished-at="2025-01-07T11:27:09 CST" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginDDT@3c989952]" started-at="2025-03-24T09:35:19 CDT" name="tearDown" finished-at="2025-03-24T09:35:19 CDT" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_LoginDDT -->
       <class name="testCases.TC004_SearchProducts">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:09 CST" name="setup" finished-at="2025-01-07T11:27:14 CST" duration-ms="5056" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:35:19 CDT" name="setup" finished-at="2025-03-24T09:35:24 CDT" duration-ms="4795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -186,7 +186,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:15 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:27:26 CST" duration-ms="11254" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:35:25 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:35:36 CDT" duration-ms="11234" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,7 +202,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:26 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:27:37 CST" duration-ms="11517" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:35:36 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:35:47 CDT" duration-ms="11492" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -218,7 +218,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:37 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:27:49 CST" duration-ms="11771" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:35:47 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:35:59 CDT" duration-ms="11675" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -234,7 +234,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:27:49 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:01 CST" duration-ms="11318" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:35:59 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:36:10 CDT" duration-ms="11228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,7 +250,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:01 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:12 CST" duration-ms="11734" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:36:10 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:36:22 CDT" duration-ms="11819" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -266,7 +266,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:12 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:24 CST" duration-ms="11444" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:36:22 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:36:34 CDT" duration-ms="11539" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,7 +282,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:24 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:36 CST" duration-ms="11903" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:36:34 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:36:46 CDT" duration-ms="12585" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -298,7 +298,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:36 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:47 CST" duration-ms="11359" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:36:46 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:36:57 CDT" duration-ms="11251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -314,7 +314,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:47 CST" name="verify_searchProducts" data-provider="searchData" finished-at="2025-01-07T11:28:58 CST" duration-ms="10841" status="PASS">
+        <test-method signature="verify_searchProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:36:57 CDT" name="verify_searchProducts" data-provider="searchData" finished-at="2025-03-24T09:37:09 CDT" duration-ms="11514" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,7 +330,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_searchProducts -->
-        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:28:58 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:06 CST" duration-ms="7553" status="PASS">
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:37:09 CDT" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-03-24T09:37:17 CDT" duration-ms="7950" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -346,7 +346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_adding_multiple_items_to_cart -->
-        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:06 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:13 CST" duration-ms="7153" status="PASS">
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:37:17 CDT" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-03-24T09:37:24 CDT" duration-ms="6549" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -362,7 +362,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_adding_multiple_items_to_cart -->
-        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:13 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:20 CST" duration-ms="6922" status="PASS">
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:37:24 CDT" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-03-24T09:37:31 CDT" duration-ms="6846" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -378,7 +378,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_adding_multiple_items_to_cart -->
-        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:20 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:27 CST" duration-ms="6945" status="PASS">
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:37:31 CDT" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-03-24T09:37:38 CDT" duration-ms="7295" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -394,7 +394,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_adding_multiple_items_to_cart -->
-        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:27 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:34 CST" duration-ms="7332" status="PASS">
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:37:38 CDT" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-03-24T09:37:45 CDT" duration-ms="7172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -410,7 +410,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_adding_multiple_items_to_cart -->
-        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:34 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:41 CST" duration-ms="7220" status="PASS">
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:37:45 CDT" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-03-24T09:37:52 CDT" duration-ms="7264" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -426,7 +426,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_adding_multiple_items_to_cart -->
-        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:41 CST" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-01-07T11:29:48 CST" duration-ms="7241" status="PASS">
+        <test-method signature="verify_adding_multiple_items_to_cart(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:37:52 CDT" name="verify_adding_multiple_items_to_cart" data-provider="AddItems" finished-at="2025-03-24T09:38:00 CDT" duration-ms="7609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -442,13 +442,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_adding_multiple_items_to_cart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchProducts@3e14c16d]" started-at="2025-01-07T11:29:48 CST" name="tearDown" finished-at="2025-01-07T11:29:49 CST" duration-ms="399" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchProducts@784b990c]" started-at="2025-03-24T09:38:00 CDT" name="tearDown" finished-at="2025-03-24T09:38:00 CDT" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC004_SearchProducts -->
       <class name="testCases.TC005_Checkout">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:29:49 CST" name="setup" finished-at="2025-01-07T11:29:54 CST" duration-ms="4869" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:00 CDT" name="setup" finished-at="2025-03-24T09:38:04 CDT" duration-ms="4114" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -464,19 +464,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Add_to_cart()[pri:1, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:29:54 CST" name="verify_Add_to_cart" finished-at="2025-01-07T11:29:55 CST" duration-ms="1484" status="PASS">
+        <test-method signature="verify_Add_to_cart()[pri:1, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:04 CDT" name="verify_Add_to_cart" finished-at="2025-03-24T09:38:05 CDT" duration-ms="1186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Add_to_cart -->
-        <test-method signature="verify_successfully_checkedout()[pri:2, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:29:55 CST" name="verify_successfully_checkedout" finished-at="2025-01-07T11:30:04 CST" duration-ms="8354" status="PASS">
+        <test-method signature="verify_successfully_checkedout()[pri:2, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:05 CDT" name="verify_successfully_checkedout" finished-at="2025-03-24T09:38:13 CDT" duration-ms="7455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_successfully_checkedout -->
-        <test-method signature="verify_products_successfully_deleted()[pri:3, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:04 CST" name="verify_products_successfully_deleted" finished-at="2025-01-07T11:30:10 CST" duration-ms="6721" status="PASS">
+        <test-method signature="verify_products_successfully_deleted()[pri:3, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:13 CDT" name="verify_products_successfully_deleted" finished-at="2025-03-24T09:38:19 CDT" duration-ms="6271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_products_successfully_deleted -->
-        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:11 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:14 CST" duration-ms="3888" status="PASS">
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:20 CDT" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-03-24T09:38:24 CDT" duration-ms="4643" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -497,7 +497,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
-        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:14 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:18 CST" duration-ms="3895" status="PASS">
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:24 CDT" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-03-24T09:38:28 CDT" duration-ms="3816" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -518,7 +518,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
-        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:18 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:22 CST" duration-ms="3980" status="PASS">
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:28 CDT" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-03-24T09:38:32 CDT" duration-ms="3605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -539,7 +539,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
-        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:22 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:26 CST" duration-ms="3989" status="PASS">
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:32 CDT" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-03-24T09:38:36 CDT" duration-ms="3920" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -560,7 +560,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
-        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:26 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:30 CST" duration-ms="3935" status="PASS">
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:36 CDT" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-03-24T09:38:40 CDT" duration-ms="3858" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -581,7 +581,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
-        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:30 CST" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-01-07T11:30:34 CST" duration-ms="4014" status="PASS">
+        <test-method signature="verifyItemCountAndPrices_Matches_TotalPrice_(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:40 CDT" name="verifyItemCountAndPrices_Matches_TotalPrice_" data-provider="CheckOutData" finished-at="2025-03-24T09:38:43 CDT" duration-ms="3835" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -602,13 +602,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemCountAndPrices_Matches_TotalPrice_ -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_Checkout@3c989952]" started-at="2025-01-07T11:30:34 CST" name="tearDown" finished-at="2025-01-07T11:30:35 CST" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_Checkout@3d3ba765]" started-at="2025-03-24T09:38:43 CDT" name="tearDown" finished-at="2025-03-24T09:38:44 CDT" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC005_Checkout -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" started-at="2025-01-07T11:25:37 CST" name="setup" finished-at="2025-01-07T11:26:07 CST" duration-ms="29379" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@5c8504fd]" started-at="2025-03-24T09:34:16 CDT" name="setup" finished-at="2025-03-24T09:34:22 CDT" duration-ms="5466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -624,17 +624,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" started-at="2025-01-07T11:26:07 CST" name="verify_account_registration" finished-at="2025-01-07T11:26:10 CST" duration-ms="3542" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5c8504fd]" started-at="2025-03-24T09:34:22 CDT" name="verify_account_registration" finished-at="2025-03-24T09:34:25 CDT" duration-ms="3322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@47c4ecdc]" started-at="2025-01-07T11:26:10 CST" name="tearDown" finished-at="2025-01-07T11:26:11 CST" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5c8504fd]" started-at="2025-03-24T09:34:25 CDT" name="tearDown" finished-at="2025-03-24T09:34:25 CDT" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
       <class name="testCases.TC006_WishList">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:35 CST" name="setup" finished-at="2025-01-07T11:30:39 CST" duration-ms="4772" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_WishList@25bc0606]" started-at="2025-03-24T09:38:44 CDT" name="setup" finished-at="2025-03-24T09:38:48 CDT" duration-ms="4452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -650,31 +650,255 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="writeReview()[pri:1, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:39 CST" name="writeReview" finished-at="2025-01-07T11:30:47 CST" duration-ms="8029" status="PASS">
+        <test-method signature="writeReview()[pri:1, instance:testCases.TC006_WishList@25bc0606]" started-at="2025-03-24T09:38:48 CDT" name="writeReview" finished-at="2025-03-24T09:38:55 CDT" duration-ms="6537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReview -->
-        <test-method signature="addToWishList()[pri:2, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:47 CST" name="addToWishList" finished-at="2025-01-07T11:30:53 CST" duration-ms="5636" status="PASS">
+        <test-method signature="addToWishList()[pri:2, instance:testCases.TC006_WishList@25bc0606]" started-at="2025-03-24T09:38:55 CDT" name="addToWishList" finished-at="2025-03-24T09:39:00 CDT" duration-ms="5113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToWishList -->
-        <test-method signature="testSubmitReviewWithoutText()[pri:3, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:53 CST" name="testSubmitReviewWithoutText" finished-at="2025-01-07T11:30:59 CST" duration-ms="6054" status="PASS">
+        <test-method signature="testSubmitReviewWithoutText()[pri:3, instance:testCases.TC006_WishList@25bc0606]" started-at="2025-03-24T09:39:00 CDT" name="testSubmitReviewWithoutText" finished-at="2025-03-24T09:39:05 CDT" duration-ms="5359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubmitReviewWithoutText -->
-        <test-method signature="testSubmitReviewWithoutRating()[pri:4, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:30:59 CST" name="testSubmitReviewWithoutRating" finished-at="2025-01-07T11:31:06 CST" duration-ms="7079" status="PASS">
+        <test-method signature="testSubmitReviewWithoutRating()[pri:4, instance:testCases.TC006_WishList@25bc0606]" started-at="2025-03-24T09:39:05 CDT" name="testSubmitReviewWithoutRating" finished-at="2025-03-24T09:39:07 CDT" duration-ms="2021" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61ee5ef8aca3f0b8469581932878bc9a, sendKeysToElement {value=[Ljava.lang.CharSequence;@1b79df53, id=f.58D4101B91F2F82F6B2DDBA52CB051F3.d.4CB5BC7401338501EE2ED71236565554.e.358}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\akeem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59003/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (61ee5ef8aca3f0b8469581932878bc9a)] -> xpath: //input[@placeholder='Search']]
+Session ID: 61ee5ef8aca3f0b8469581932878bc9a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61ee5ef8aca3f0b8469581932878bc9a, sendKeysToElement {value=[Ljava.lang.CharSequence;@1b79df53, id=f.58D4101B91F2F82F6B2DDBA52CB051F3.d.4CB5BC7401338501EE2ED71236565554.e.358}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\akeem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59003/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (61ee5ef8aca3f0b8469581932878bc9a)] -> xpath: //input[@placeholder='Search']]
+Session ID: 61ee5ef8aca3f0b8469581932878bc9a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at pageObjects.SearchProductsPage.enterSearchText(SearchProductsPage.java:19)
+at testCases.TC006_WishList.testSubmitReviewWithoutRating(TC006_WishList.java:129)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubmitReviewWithoutRating -->
-        <test-method signature="testSubmitReviewWithoutChararcters()[pri:5, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:31:06 CST" name="testSubmitReviewWithoutChararcters" finished-at="2025-01-07T11:31:13 CST" duration-ms="6595" status="PASS">
+        <test-method signature="testSubmitReviewWithoutChararcters()[pri:5, instance:testCases.TC006_WishList@25bc0606]" started-at="2025-03-24T09:39:07 CDT" name="testSubmitReviewWithoutChararcters" finished-at="2025-03-24T09:39:17 CDT" duration-ms="10157" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61ee5ef8aca3f0b8469581932878bc9a, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\akeem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59003/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61ee5ef8aca3f0b8469581932878bc9a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61ee5ef8aca3f0b8469581932878bc9a, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\akeem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59003/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61ee5ef8aca3f0b8469581932878bc9a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at pageObjects.Homepage.clickLogin(Homepage.java:31)
+at testCases.TC006_WishList.testSubmitReviewWithoutChararcters(TC006_WishList.java:155)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubmitReviewWithoutChararcters -->
-        <test-method signature="testReviewCharacterLimit()[pri:6, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:31:13 CST" name="testReviewCharacterLimit" finished-at="2025-01-07T11:31:20 CST" duration-ms="6878" status="PASS">
+        <test-method signature="testReviewCharacterLimit()[pri:6, instance:testCases.TC006_WishList@25bc0606]" started-at="2025-03-24T09:39:18 CDT" name="testReviewCharacterLimit" finished-at="2025-03-24T09:39:28 CDT" duration-ms="10168" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61ee5ef8aca3f0b8469581932878bc9a, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\akeem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59003/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61ee5ef8aca3f0b8469581932878bc9a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61ee5ef8aca3f0b8469581932878bc9a, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\akeem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59003/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61ee5ef8aca3f0b8469581932878bc9a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at pageObjects.Homepage.clickLogin(Homepage.java:31)
+at testCases.TC006_WishList.testReviewCharacterLimit(TC006_WishList.java:198)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReviewCharacterLimit -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_WishList@784b990c]" started-at="2025-01-07T11:31:20 CST" name="tearDown" finished-at="2025-01-07T11:31:20 CST" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_WishList@25bc0606]" started-at="2025-03-24T09:39:28 CDT" name="tearDown" finished-at="2025-03-24T09:39:28 CDT" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
